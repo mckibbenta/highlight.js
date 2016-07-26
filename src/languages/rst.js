@@ -4,5 +4,16 @@ Author: Alex McKibben <alex@nullscope.net>
 */
 
 function(hljs) {
-    return { };
+    return {
+        contains:[
+            {
+                className: "emphasis",
+                begin: /\*{1}[^*]/, end: /\*{1}/
+            },
+            {
+                className: "strong",
+                begin: /\*{2}[^*]/, end: /\*{2}/
+            }
+        ]
+    };
 }
