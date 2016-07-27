@@ -21,6 +21,10 @@ function(hljs) {
             {
                 className: "interpreted-text",
                 begin: /`{1}[^`]/, end: /`/
+            },
+            {
+                className: "literal",
+                begin: /`{2}[^`]/, end: /`{2}/
             }
         ]
     };
