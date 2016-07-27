@@ -5,6 +5,7 @@ Author: Alex McKibben <alex@nullscope.net>
 
 function(hljs) {
     return {
+        aliases: ["reStructuredText", "REST"],
         contains:[
             {
                 className: "emphasis",
