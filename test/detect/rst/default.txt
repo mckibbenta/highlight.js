@@ -1,3 +1,12 @@
-This is a paragraph. Paragraphs have sentences. Sentences have words. Words can have *emphasis* or **strong emphasis**.
+This is a paragraph. Paragraphs have sentences. Sentences have words. Words can
+have *emphasis* or **strong emphasis**.
 
-Note that `interpreted text` is generally not highlighted. However, ``inline literals`` usually are.
+Note that `interpreted text` is generally not highlighted. However,
+``inline literals`` usually are.
+
+Hyperlink References
+~~~~~~~~~~~~~~~~~~~~
+named_
+`named phrase reference`_
+anonymous__
+`anonymous phrase reference`__
