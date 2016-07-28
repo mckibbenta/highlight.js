@@ -30,6 +30,7 @@ function(hljs) {
             // section/title adornments
             {
                 className: "section",
+                begin: /^[!"#$%&'()*+,\-./:;<=>?@\[\\\]^_`{|}~]{3,}/
             }
         ]
     };
