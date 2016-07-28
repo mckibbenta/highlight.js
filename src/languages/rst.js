@@ -26,6 +26,10 @@ function(hljs) {
                     { begin: /[a-zA-Z0-9-_.:+]+_{1,2}\b/ },
                     { begin: /`[a-zA-Z0-9-_.:+ ]+`_{1,2}\b/ }
                 ]
+            },
+            // section/title adornments
+            {
+                className: "section",
             }
         ]
     };
