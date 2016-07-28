@@ -14,3 +14,4 @@ named_
 anonymous__
 `anonymous phrase reference`__
 _`inline internal target`
+[footnote phrase reference]_

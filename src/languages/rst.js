@@ -28,7 +28,9 @@ function(hljs) {
                     // substitution references
                     { begin: /\|[a-zA-Z0-9\-_.:+\s]+\|/ },
                     // inline internal targets
-                    { begin: /_`[a-zA-Z0-9\-_.:+\s]+`/ }
+                    { begin: /_`[a-zA-Z0-9\-_.:+\s]+`/ },
+                    // footnote references
+                    { begin: /\[[a-zA-Z0-9\-_.:+\s]+\]_/ }
                 ]
             },
             // section/title adornments
