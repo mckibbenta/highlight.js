@@ -1,5 +1,8 @@
+This is a Section Heading
+=========================
 This is a paragraph. Paragraphs have sentences. Sentences have words. Words can
-have *emphasis* or **strong emphasis**.
+have *emphasis* or **strong emphasis**. This paragraph contains a
+|substitution reference|.
 
 Note that `interpreted text` is generally not highlighted. However,
 ``inline literals`` usually are.

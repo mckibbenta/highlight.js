@@ -19,12 +19,14 @@ function(hljs) {
                 className: "literal",
                 begin: /`{2}[^`]/, end: /`{2}/
             },
-            // hyperlink references
             {
                 className: "symbol",
                 variants: [
-                    { begin: /[a-zA-Z0-9-_.:+]+_{1,2}\b/ },
-                    { begin: /`[a-zA-Z0-9-_.:+ ]+`_{1,2}\b/ }
+                    // hyperlink references
+                    { begin: /[a-zA-Z0-9\-_.:+]+_{1,2}\b/ },
+                    { begin: /`[a-zA-Z0-9\-_.:+\s]+`_{1,2}\b/ },
+                    // substitution references
+                    { begin: /\|[a-zA-Z0-9\-_.:+\s]+\|/ }
                 ]
             },
             // section/title adornments
